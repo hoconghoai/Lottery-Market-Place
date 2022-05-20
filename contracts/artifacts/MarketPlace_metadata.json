@@ -7,6 +7,12 @@
 		"abi": [
 			{
 				"anonymous": false,
+				"inputs": [],
+				"name": "FinishLotterySession",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
 				"inputs": [
 					{
 						"indexed": true,
@@ -23,6 +29,45 @@
 				],
 				"name": "OwnershipTransferred",
 				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "minLotteryNumber",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "maxLotteryNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "StartLotterySession",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "balanceOfReward",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "buyTicket",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -177,11 +222,11 @@
 			]
 		},
 		"contracts/MarketPlace.sol": {
-			"keccak256": "0x394c4bfea7302fce1eabe7b0e7923bca372def86de6cd0402905a5d6b5da1958",
+			"keccak256": "0xca1a5c717fb10dfb08eefa5345969ee85f64c6a60f881fa8b1d796111d3480a2",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d2e71bd2fdc4b4252dc5e6194ee3a85eb6ce04dd16576cdb4487c2b7fd484ef1",
-				"dweb:/ipfs/QmPJ7agg7G72srZrJW1BwMjdW2fD2QAEk5Dr8j41FpfFKB"
+				"bzz-raw://5b790822838c599489a2640df86708eee65f8f621a3de14be888e4085bda6851",
+				"dweb:/ipfs/Qmca8h3R74V9gXcvygvAFe1RdwZqnxPX8r2xuugzyDWDBJ"
 			]
 		}
 	},
